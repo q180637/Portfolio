@@ -1,0 +1,33 @@
+body {
+  display: grid;
+  grid-template-rows: 10% 90%;
+}
+body nav {
+  grid-row: 1;
+}
+body .main_body_wrapper {
+  width: 100%;
+  height: 96vh;
+  background-image: url(../assets/img/Graduation.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body .main_body_wrapper .name {
+  padding-top: 15%;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+  color: white;
+}
+body .main_body_wrapper .desc {
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (min-width: 1200px) {
+  .main_body_wrapper {
+    background-position-y: 25%;
+  }
+}/*# sourceMappingURL=home.css.map */
